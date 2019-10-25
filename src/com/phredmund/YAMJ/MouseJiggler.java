@@ -18,7 +18,7 @@ public class MouseJiggler {
             }
             robot.mouseMove(xCoord, yCoord);
             Thread.sleep(5000);
-
         }
+        // TODO: Check out https://docs.oracle.com/javase/tutorial/uiswing/misc/systemtray.html to add icon to tray
     }
 }
